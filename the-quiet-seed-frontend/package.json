@@ -6,18 +6,40 @@
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/user-event": "^14.6.1",
     "axios": "^1.8.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4"
+    "react-player": "^2.16.0",
+    "react-router-dom": "^7.3.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "stylelint": "^16.15.0",
+    "stylelint-config-recommended": "^15.0.0",
+    "stylelint-config-tailwindcss": "^1.0.0",
+    "tailwindcss": "^4.0.14"
+  },
+  "overrides": {
+    "semver": "^7.3.5",
+    "shell-quote": "^1.7.3",
+    "sockjs": "^0.3.20",
+    "terser": "^4.8.1",
+    "yargs-parser": "^13.1.2",
+    "postcss": "^8.5.3",
+    "nth-check": "^2.0.1",
+    "css-select": "^4.0.0",
+    "@svgr/plugin-svgo": "^5.5.0",
+    "@svgr/webpack": "^5.5.0"
   },
   "eslintConfig": {
     "extends": [
@@ -36,10 +58,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.14"
   }
 }

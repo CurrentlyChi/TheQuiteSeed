@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-tailwindcss"
+  ],
+  "overrides": [
+    {
+      "files": ["**/*.css"],
+      "customSyntax": "postcss"
+    }
+  ],
+  "rules": {
+    "at-rule-no-unknown": null
+  }
+}
